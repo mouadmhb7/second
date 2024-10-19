@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="to-css/framework-css">
+    <link rel="stylesheet" href="to-css/css">
+    <link rel="stylesheet" href="to-css/all.min.css">
+    <link rel="stylesheet" href="to-css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,400&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20">
+            <h3 class="p-relative text-c mt-0">Mouad</h3>
+            <ul>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="html">
+                        <i class="fa-solid fa-gear  fa-fw"></i>
+                        <span>settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- start head  -->
+            <div class="head bg-white p-15 d-flex align-center justify-between">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="type a keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="img/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end head  -->
+            <h1 class="p-relative">dashboard</h1>
+            <div class="wrapper d-grid gap-20">
+                <!-- start welcome widget  -->
+                <div class="welcome bg-white rad-6  text-c-mobile block-mobile">
+                <div class="intro p-20 d-flex justify-between bg-eee">
+                    <div>
+                        <h2 class="m-0 mb-10">welcome</h2>
+                        <p class="c-grey mt-5">elzero</p>
+                    </div>
+                    <img class="hid-mobil" src="img/welcome.png" alt="">
+                </div>
+                <img src="img/avatar.png" alt="" class="avatar">
+                <div class="body text-c d-flex mt-20 mb-20 p-20 block-mobile ">
+                    <div>osama elzero <span class="d-block c-grey fs-14 mt-10">developer</span></div>
+                    <div>80 <span  class="d-block c-grey fs-14 mt-10">projects</span></div>
+                    <div>$8500 <span  class="d-block c-grey fs-14 mt-10">earned</span></div>
+                </div>
+                <a href="profile.html" class="visit d-block fs-14 rad-6 bg-blue c-white w-fit btn-shape"> profile</a>
+                </div>
+                <!-- end welcome widget  -->
+                <!-- start quik draft widget -->
+                <div class="quick-draft p-20  bg-white rad-10">
+                <h2 class="mt-0 mb-10">
+                    Quick-Draft
+                </h2>
+                <p class="mt-0 mb-20 c-grey fs-14">write a draft forn your ideas</p>
+                <form action="">
+                    <input class="d-block mb-20 w-full p-10 b-none bg-eee rad-6" type="text" placeholder="title">
+                    <textarea class="d-block mb-20 w-full p-10 b-none bg-eee rad-6" placeholder="your thought"></textarea>
+                    <input class="save d-block fs-14 bg-blue c-white b-none w-fit  btn-shape text-r " type="submit" value="save">
+                </form>
+                </div>
+                <!-- end quik draft widget -->
+                <!-- start targets  -->
+                <div class="targets     p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">Yearly Targets</h2>
+                    <p class="mt-0 mb-20  fs-14 c-grey">Targets Of The Year</p>
+                    <div class="target-row   blue  mb-20 center-flex">
+                        <div class="icon   center-flex">
+                            <i class="fa-solid fa-dollar-sign fa-lg c-blue "></i>
+                        </div>
+                        <div class="details">
+                            <span class="fs-14 c-grey">money</span>
+                            <span class="d-block mt-5 mb-10">$20000</span>
+                            <div class="progress    p-relative">
+                                <span class="bg-blue blue" style="width: 80% ">
+                                    <span class="bg-blue c-white">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="target-row   orange  mb-20 center-flex">
+                        <div class="icon   center-flex">
+                            <i class="fa-solid fa-code fa-lg c-orange "></i>
+                        </div>
+                        <div class="details">
+                            <span class="fs-14 c-grey">projects</span>
+                            <span class="d-block mt-5 mb-10">24</span>
+                            <div class="progress    p-relative">
+                                <span class="bg-orange orange" style="width: 55% ">
+                                    <span class="bg-orange c-white">55%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="target-row   green  mb-20 center-flex">
+                        <div class="icon   center-flex">
+                            <i class="fa-solid fa-user fa-lg c-green "></i>
+                        </div>
+                        <div class="details">
+                            <span class="fs-14 c-grey">tean</span>
+                            <span class="d-block mt-5 mb-10">12</span>
+                            <div class="progress    p-relative">
+                                <span class="bg-green green" style="width: 75% ">
+                                    <span class="bg-green c-white">75%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end targets  -->
+                <!--  -->
+                <div class="statistics bg-white p-20 rad-10">
+                    <h2 class="capitalize mt-0 mb-10">tickets statistics</h2>
+                    <p class="c-grey fs-14 capitalize mt-0 mb-20">everything about support tickets</p>
+                    <div class="cont d-flex ">
+                        <div class="box d-flex ">
+                            <i class="fa-regular fa-rectangle-list fa-2x mb-10 c-orange"></i>
+                            <span class="num">2500</span>
+                            <span class="text ">total</span>
+                        </div>
+                        <div class="box d-flex ">
+                            <i class="fa-solid fa-spinner fa-2x mb-10 c-blue"></i>
+                            <span class="num">2500</span>
+                            <span class="text ">total</span>
+                        </div>
+                        <div class="box d-flex ">
+                            <i class="fa-regular fa-circle-check fa-2x mb-10 c-green"></i>
+                            <span class="num">2500</span>
+                            <span class="text ">total</span>
+                        </div>
+                        <div class="box d-flex">
+                            <i class="fa-regular fa-rectangle-xmark fa-2x mb-10 c-red"></i>
+                            <span class="num">2500</span>
+                            <span class="text ">total</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end statistics  -->
+                <!-- start latest news  -->
+                <div class="latest-news bg-white p-20 rad-10 text-c-mobile">
+                    <h2 class="capitalize mt-0 mb-10">latest news</h2>
+                    <div class="box d-flex align-center justify-between ">
+                        <img class=" rad-6 w-100" src="img/news-01.png" alt="">
+                        <div class="text">
+                            <h3>Created SASS Section</h3>
+                            <p class="m-0 c-grey ">New SASS Examples & Tutorials</p>
+                        </div>
+                        <div class="time  bg-eee rad-6 ">3 days ago </div>
+                    </div>
+                    <div class="box d-flex align-center justify-between brt-e-1 ">
+                        <img class=" rad-6 w-100" src="img/news-02.png" alt="">
+                        <div class="text">
+                            <h3>Changed The Design</h3>
+                            <p class="m-0 c-grey fs-14">A Brand New Website Design</p>
+                        </div>
+                        <div class="time  bg-eee rad-6 ">5 days ago </div>
+                    </div>
+                    <div class="box d-flex align-center justify-between brt-e-1">
+                        <img class=" rad-6 w-100" src="img/news-03.png" alt="">
+                        <div class="text">
+                            <h3>Team Increased</h3>
+                            <p class="m-0 c-grey fs-14">3 Developers Joined The Team</p>
+                        </div>
+                        <div class="time  bg-eee rad-6 ">7 days ago </div>
+                    </div>
+                    <div class="box d-flex align-center justify-between brt-e-1 ">
+                        <img class=" rad-6 w-100" src="img/news-04.png" alt="">
+                        <div class="text  ">
+                            <h3 class=" ">Added Payment Gateway</h3>
+                            <p class="m-0 c-grey fs-14">Many New Payment Gateways Added</p>
+                        </div>
+                        <div class="time  bg-eee rad-6 ">9 days ago </div>
+                    </div>
+                </div>
+                <!-- end latest news -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
